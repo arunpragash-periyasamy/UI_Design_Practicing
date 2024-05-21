@@ -96,10 +96,19 @@ body{
     border-radius: 15px;
 }
 
-@media (max-width: 1650px) {
-  .sidebar{
-    width: 300px;
-    height: 750px;
+@media (max-width: 1440px) and (min-width : 1024px){
+    .sidebar{
+    width: 400px;
+    height: 800px;
+  }
+
+  .content{
+    width: 50%;
+  }
+
+  .search{
+    width: 100%;
+    margin: 0;
   }
 
   .box{
@@ -110,4 +119,46 @@ body{
   .daily-entries{
     height: 250px;
   }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .sidebar{
+    width: 300px;
+    height: 750px;
+  }
+
+  .content{
+    width: 50%;
+  }
+
+  .search{
+    width: 100%;
+    margin: 0;
+  }
+
+  .box{
+    width: 250px;
+    height: 180px;
+  }
+
+  .daily-entries{
+    height: 250px;
+  }
+}
+
+
+@media (max-width: 768px){
+   .container{
+    justify-content: center;
+   }
+    .sidebar{
+    width: 350px;
+    height: 750px;
+  }
+
+  .search{
+    width: 100%;
+    margin: 0;
+  }
+
 }
