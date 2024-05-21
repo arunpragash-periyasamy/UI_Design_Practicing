@@ -1,0 +1,2 @@
+This is repository contains practicing code to improve the developing web page skills.
+I am taking the UI design and try to replicate the design as per in the UI. And then try to make the website reponsive for all devices (mobile, tablet and laptop).
